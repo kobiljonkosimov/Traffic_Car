@@ -70,7 +70,7 @@ class Vehicle(pygame.sprite.Sprite):
 class PlayerVehicle(Vehicle):
 
     def __init__(self, x, y):
-        image = pygame.image.load('/home/vairo/vscode/py/games/traficar/vehicle_sprites/Audi.png')
+        image = pygame.image.load('/sprites/Audi.png')
         super().__init__(image, x, y)
 
 #sprite groups
@@ -85,12 +85,12 @@ player_group.add(player)
 image_filenames = ['Ambulance.png', 'Black_viper.png', 'Car.png', 'Mini_truck.png', 'Mini_van.png', 'Police.png', 'taxi.png']
 vehicle_images = []
 for image_filename in image_filenames:
-    image = pygame.image.load('/home/vairo/vscode/py/games/traficar/vehicle_sprites/' + image_filename)
+    image = pygame.image.load('/sprites/' + image_filename)
     vehicle_images.append(image)
 
 
 #load crash image
-crash = pygame.image.load('/home/vairo/vscode/py/games/traficar/crash_sprites/explosion0.png')
+crash = pygame.image.load('sprites/explosion0.png')
 crash_rect = crash.get_rect()
 
 
