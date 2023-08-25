@@ -13,12 +13,6 @@ A simple car racing game built using the Pygame library, where players control a
 - Score tracking and display to compete against yourself or others.
 - Option to restart the game after a collision.
 
-## Getting Started
-
-1. Ensure you have Python and Pygame installed.
-2. Clone this repository: `git clone https://github.com/vairo13/car-game.git`
-3. Run the game: `python car_game.py`
-
 ## Requirements
 
 - Python (>= 3.x)
